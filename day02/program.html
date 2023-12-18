@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body {
+      margin-top: 20px;
+      background-color: rgb(206, 122, 206);
+      box-sizing: border-box;
+    }
+    section {
+      margin: auto;
+      height: 450px;
+      width: 400px;
+      box-shadow: 3px 3px 3px 3px purple;
+
+    }
+
+    section h3 {
+      padding: 20px 40px;
+      font-size: 30px;
+    }
+    section div input {
+      height: 50px;
+      width: 330px;
+      margin-top: 20px;
+    }
+    div {
+      padding-top: 30px;
+      padding-left: 40px;
+    }
+    div .int {
+      color: black;
+      padding-left: 20px;
+      font-weight: 600;
+      font-size: 15px;
+      border: none;
+      border-radius: 3%;
+      box-shadow: 3px 3px 3px 3px purple;
+    }
+    div .int:hover {
+      color: orangered;
+    }
+    div .btn {
+      cursor: pointer;
+      height: 50px;
+      width: 200px;
+      margin-top: 30px;
+      background-color: aqua;
+      border: none;
+      font-size: 25px;
+      color: black;
+      border-radius: 3%;
+      font: 700;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+    div .btn:hover{
+      background-color:plum;
+      border: none;
+      color: aqua;
+      border-radius: 3%;
+      font: 900;
+      
+    }
+    p {
+      font-size: 17px;
+      float: right;
+      padding-right: 50px;
+      padding-top: 10px;
+      cursor: pointer;
+      color: blue;
+    }
+  </style>
+  <body>
+    <section>
+      <h3>Login page</h3>
+      <div>
+        <input class="int" placeholder="User Name" type="text" />
+        <br />
+        <input class="int" placeholder="Password" type="text" />
+        <p>forget Password?</p>
+        <button class="btn">Login</button><br>
+        <div class="dn">
+        <b>dont have any account <a href="">sign in</a></b>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
